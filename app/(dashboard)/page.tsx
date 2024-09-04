@@ -20,9 +20,9 @@ export default async function ProductsPage({
     <Tabs defaultValue="all">
       <div className="flex items-center">
         <TabsList>
-          <TabsTrigger value="all">Pendientes</TabsTrigger>
-          <TabsTrigger value="active">Rechazados</TabsTrigger>
-          <TabsTrigger value="draft">Guardados</TabsTrigger>
+          <TabsTrigger value="all">Guardado</TabsTrigger>
+          <TabsTrigger value="active">Pendientes</TabsTrigger>
+          <TabsTrigger value="draft">Rechazados</TabsTrigger>
           <TabsTrigger value="archived" className="hidden sm:flex">
             Archivados
           </TabsTrigger>

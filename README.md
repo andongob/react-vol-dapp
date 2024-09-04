@@ -1,3 +1,14 @@
+NOTAS ANA:
+
+- Páginas principales: pages.txs y layout.txs /./app/(dashboard)
+- Hay dos grupos de componentes situados en: /app/dasboard y en /componentes (no entiendo porqué la distinción pero entiendo que será por algo)
+- Los textos se cambián directamente desde los compnentes
+- Fichero .env.local credenciales de acceso login
+- Imagen de certificado en ./public --> Ejemplo_certificado.png
+- \*IMPORTANTE: no he borrado de layout el resto de opciones de menu de la barra lateral por si a futuro hubiese que incluir votaciones, NFT, etc
+- \*\*IMPORTANTE TAMBIÉN: Algunos componentes deben tener al principio del código indicado 'use client' / 'use server' no he cotilleado aún porqué
+- La plantilla en general funciona muy bien y no he tenido en nigún momento problemas con las dependencias.
+
 <div align="center"><strong>Next.js 14 Admin Dashboard Template</strong></div>
 <div align="center">Built with the Next.js App Router</div>
 <br />
