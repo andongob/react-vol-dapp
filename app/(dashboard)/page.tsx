@@ -34,9 +34,8 @@ export default async function ProductsPage({
             </span>
           </Button>
           <Button size="sm" className="h-8 gap-1">
-            <span className="sr-only sm:not-sr-only sm:whitespace-nowrap">
-              Refrescar
-            </span>
+            <span className="sr-only sm:not-sr-only sm:whitespace-nowrap"></span>
+            Refrescar
           </Button>
         </div>
       </div>
