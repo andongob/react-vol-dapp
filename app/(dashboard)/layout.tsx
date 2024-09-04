@@ -43,12 +43,18 @@ export default function DashboardLayout({
       <main className="flex min-h-screen w-full flex-col bg-muted/40">
         <DesktopNav />
         <div className="flex flex-col sm:gap-4 sm:py-4 sm:pl-14">
-          <header className="sticky top-0 z-30 flex h-14 items-center gap-2 border-b bg-background px-4 sm:static sm:h-auto sm:border-0 sm:bg-transparent sm:px-6">
-            <MobileNav />
-            <DashboardBreadcrumb />
-            <DarkModeToggle />
-            <SearchInput />
-            <User />
+          <header className="sticky top-0 z-30 flex h-14 items-center justify-between border-b bg-background px-4 sm:static sm:h-auto sm:border-0 sm:bg-transparent sm:px-6">
+            {/* Grupo alineado a la izquierda */}
+            <div className="flex items-center gap-2">
+              <MobileNav />
+              <DashboardBreadcrumb />
+            </div>
+            {/* Grupo alineado a la derecha */}
+            <div className="flex items-center gap-6">
+              <DarkModeToggle />
+              <SearchInput />
+              <User />
+            </div>
           </header>
           <main className="grid flex-1 items-start gap-2 p-4 sm:px-6 sm:py-0 md:gap-4 bg-muted/40">
             {children}
