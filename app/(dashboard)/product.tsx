@@ -45,11 +45,11 @@ export function Product({ product }: { product: SelectProduct }) {
             </Button>
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end">
-            <DropdownMenuLabel>Actions</DropdownMenuLabel>
-            <DropdownMenuItem>Edit</DropdownMenuItem>
+            <DropdownMenuLabel>Acción</DropdownMenuLabel>
+            <DropdownMenuItem>Guardar</DropdownMenuItem>
             <DropdownMenuItem>
               <form action={deleteProduct}>
-                <button type="submit">Delete</button>
+                <button type="submit">Rechazar</button>
               </form>
             </DropdownMenuItem>
           </DropdownMenuContent>

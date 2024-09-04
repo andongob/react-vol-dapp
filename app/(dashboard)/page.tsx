@@ -30,12 +30,12 @@ export default async function ProductsPage({
         <div className="ml-auto flex items-center gap-2">
           <Button size="sm" variant="outline" className="h-8 gap-1">
             <span className="sr-only sm:not-sr-only sm:whitespace-nowrap">
-              Rechazar
+              Transacciones
             </span>
           </Button>
           <Button size="sm" className="h-8 gap-1">
             <span className="sr-only sm:not-sr-only sm:whitespace-nowrap">
-              Aceptar
+              Refrescar
             </span>
           </Button>
         </div>
